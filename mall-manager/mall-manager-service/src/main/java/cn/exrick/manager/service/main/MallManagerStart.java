@@ -1,10 +1,10 @@
-package cn.exrick.sso.service.main;
+package cn.exrick.manager.service.main;
 
 import java.util.Scanner;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class mainloader {
+public class MallManagerStart {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

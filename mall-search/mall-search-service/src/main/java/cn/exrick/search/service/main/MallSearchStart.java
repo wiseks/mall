@@ -1,10 +1,10 @@
-package cn.exrick.manager.service.main;
+package cn.exrick.search.service.main;
 
 import java.util.Scanner;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class mainloader {
+public class MallSearchStart {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
