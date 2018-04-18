@@ -319,6 +319,7 @@
             </plugins>
         </pluginManagement>
     </build>
+    <!-- 
   <modules>
     <module>mall-common</module>
     <module>mall-content-service</module>
@@ -328,4 +329,5 @@
     <module>mall-search</module>
     <module>mall-front-web</module>
   </modules>
+   -->
 </project>

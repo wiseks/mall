@@ -48,7 +48,7 @@ public class ShiroConfig {
         Map<String, Filter>filters = new HashMap<>();
         filters.put("perms", urlPermissionsFilter());  
 //        filters.put("roles", urlPermissionsFilter());  
-        filters.put("anon", new AnonymousFilter());  
+        filters.put("anon", urlPermissionsFilter());  
         bean.setFilters(filters);  
   
         Map<String, String> chains = new HashMap<>();

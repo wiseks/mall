@@ -6,7 +6,6 @@
     <groupId>mall</groupId>
     <artifactId>mall-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>../mall-parent/pom.xml</relativePath>
   </parent>
   
   <groupId>mall-common</groupId>
