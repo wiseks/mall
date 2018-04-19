@@ -44,6 +44,7 @@
         <shiro.version>1.4.0</shiro.version>
         <json.version>20171018</json.version>
         <mail.version>1.5.0-b01</mail.version>
+        <daemon.version>1.1.0</daemon.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -282,6 +283,12 @@
                 <artifactId>mail</artifactId>
                 <version>${mail.version}</version>
             </dependency>
+            
+            <dependency>
+			<groupId>commons-daemon</groupId>
+			<artifactId>commons-daemon</artifactId>
+			<version>${daemon.version}</version>
+		</dependency>
         </dependencies>
     </dependencyManagement>
 
